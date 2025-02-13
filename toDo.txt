@@ -1,0 +1,17 @@
+Crie um programa que faça a coleta de dados página da web utilizando o módulo requests e BeautifulSoup4
+utilize o arquivo empresas_b3.csv para buscar os CNPJs das empresas colocando no link do site https://cnpj.biz/{cnpj}
+cnpj = empresas_b3.csv['CNPJ']
+salve o resultados em um arquivo .json
+
+utilize esses XPath para coletar os dados:
+/html/body/div[1]/div/div/div/div[1]/p[2]
+/html/body/div[1]/div/div/div/div[1]/p[3]
+/html/body/div[1]/div/div/div/div[1]/p[4]
+/html/body/div[1]/div/div/div/div[1]/p[5]
+/html/body/div[1]/div/div/div/div[1]/p[6]
+/html/body/div[1]/div/div/div/div[1]/p[7]
+/html/body/div[1]/div/div/div/div[1]/p[8]
+/html/body/div[1]/div/div/div/div[1]/p[9]
+/html/body/div[1]/div/div/div/div[1]/p[10]
+/html/body/div[1]/div/div/div/div[1]/p[11]
+/html/body/div[1]/div/div/div/div[1]/p[12]
